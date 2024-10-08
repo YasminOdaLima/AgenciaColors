@@ -86,11 +86,10 @@ main, section {
         text-decoration: none;
         font-size: .8rem;
         font-weight: 600;
-        background-color: rgb(255, 238, 60);
+        background-color: rgb(255, 238, 60) !important;
         padding: 1.15rem 1.8rem;
         line-height: 5.5rem;
         color: #000;
-        display: inline-block;
         letter-spacing: 3px; /* Controle o espaçamento entre as letras */
         text-transform: uppercase;
     }
@@ -98,10 +97,12 @@ main, section {
     /*Pseudo-classe before*/
     .cta::before {
         content: "+"; /* Adicione o elemento + (via CSS) */
+        margin-right: 0.8rem;
     }
 
     .verde-agua {
         background-color: #26ccca;
+        color: #fff;
     }
 
     #ux {
@@ -122,7 +123,7 @@ main, section {
     }
 
     .texto {
-        color: #fff;
+        color: #999;
     }
 
     #print {
